@@ -1,10 +1,11 @@
 import google.generativeai as genai
 import streamlit as st
+import os
 
 # --- 1. CONFIGURATION ---
-# PLEASE PASTE YOUR BRAND NEW KEY HERE
-API_KEY = "AIzaSyCvmWpBl9BBxXIfKMg8Vpamg8n052p0tyY"
-genai.configure(api_key="AIzaSyCvmWpBl9BBxXIfKMg8Vpamg8n052p0tyY")
+# This line tells the app to look in Streamlit Secrets instead of the code
+API_KEY = st.secrets["AIzaSyB3lC2JKr-Ow3wCBKdliIpgaXsX-wi5Mac"]
+genai.configure(api_key="AIzaSyB3lC2JKr-Ow3wCBKdliIpgaXsX-wi5Mac")
 
 # --- 2. UI SETUP ---
 st.set_page_config(page_title="ELI5 Decipherer", page_icon="👶")
