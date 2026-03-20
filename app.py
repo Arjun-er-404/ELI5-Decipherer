@@ -5,7 +5,7 @@ import os
 # --- 1. CONFIGURATION ---
 # We ask for the NAME we gave the secret in the settings
 API_KEY = st.secrets["AIzaSyB3lC2JKr-Ow3wCBKdliIpgaXsX-wi5Mac"]
-genai.configure(api_key=API_KEY)
+genai.configure(api_key="API_KEY")
 
 # --- 2. UI SETUP ---
 st.set_page_config(page_title="ELI5 Decipherer", page_icon="👶")
