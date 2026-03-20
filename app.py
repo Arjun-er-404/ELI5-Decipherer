@@ -3,7 +3,7 @@ import streamlit as st
 import os
 
 # --- 1. CONFIGURATION ---
-# This line tells the app to look in Streamlit Secrets instead of the code
+# We ask for the NAME we gave the secret in the settings
 API_KEY = st.secrets["AIzaSyB3lC2JKr-Ow3wCBKdliIpgaXsX-wi5Mac"]
 genai.configure(api_key="AIzaSyB3lC2JKr-Ow3wCBKdliIpgaXsX-wi5Mac")
 
