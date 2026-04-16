@@ -112,4 +112,7 @@ st.write("")
 st.divider()
 st.markdown("""
     <div style="text-align: center; color: #888;">
-        <p><b>
+        <p><b>Developed by:</b> Arjun Sharma & Team (Bhushan, Eisa, Shreyash)</p>
+        <p><b>Program:</b> SYCSE B | Specialization: AIDS | Pune 🚀</p>
+    </div>
+    """, unsafe_allow_html=True)
