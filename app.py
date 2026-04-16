@@ -9,7 +9,7 @@ except Exception:
     st.error("Missing API Key in Secrets!")
 
 # --- 2. DECORATIVE UI (CUSTOM CSS) ---
-st.set_page_config(page_title="ELI: Decipherer", page_icon="👶", layout="wide")
+st.set_page_config(page_title="ELI5: Decipherer", page_icon="🥶", layout="wide")
 
 st.markdown("""
     <style>
